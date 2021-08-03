@@ -175,7 +175,7 @@ header {
 }
 .section-title {
         color: #3d4451;
-        font-size: 34px;
+        font-size: 32px;
         line-height: 1.2;
         font-weight: 600;
         text-align: center;
@@ -363,12 +363,6 @@ div.section-box div.row div.col-md-6 ul.hobi-lista li span
        .firstconainer {height: 250px;}
        
     }
-    @media only screen and (max-width: 500px) {
-        /* default iPad screens */
-        html body div#langues.container.contenuba.langues div.section-box div.row div.col-md-3 {width: 50%;}
-       
-        
-     }
     /* different techniques for iPad screening */
     @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
       /* For portrait layouts only */
@@ -382,9 +376,11 @@ div.section-box div.row div.col-md-6 ul.hobi-lista li span
       .profile-info{text-align: center;}
       .firstconainer {height: 250px;}
     }
-
-
-
+    @media only screen and (min-device-width: 481px) and (max-device-width: 840px) and (orientation:landscape) {
+        /* For landscape layouts only */
+    
+    html body div#langues.container.contenuba.langues div.section-box div.row div.col-md-3 article.post-box div.post-data h3.post-title {font-size: 14px;}
+}
     #myBtn {
         display: none;
         position: fixed;
