@@ -363,7 +363,7 @@ div.section-box div.row div.col-md-6 ul.hobi-lista li span
        .firstconainer {height: 250px;}
        
     }
-    @media only screen and (min-width: 500px) {
+    @media only screen and (max-width: 500px) {
         /* default iPad screens */
         html body div#langues.container.contenuba.langues div.section-box div.row div.col-md-3 {width: 50%;}
        
