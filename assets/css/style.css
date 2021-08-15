@@ -183,6 +183,7 @@ header {
 
 .container.msocial>.row>.col-1>a {
     color: white;
+    font-size: 20px;
 }
 
 .profile-preword span {
@@ -274,10 +275,7 @@ header {
 }
 
 .post-box,
-.price-box,
 .section-box,
-.calendar-busy,
-.timeline-box-inner,
 .sidebar-default .profile-photo img {
     background-color: #fff;
     box-shadow: 0 1px 6px rgba(0, 0, 0, .12), 0 1px 4px rgba(0, 0, 0, .24);
