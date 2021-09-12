@@ -179,6 +179,9 @@ header {
     height: 60px;
     padding: 15px;
     box-shadow: 0 1px 6px rgba(0, 0, 0, .12), 0 1px 4px rgba(0, 0, 0, .24);
+    max-width: 960px !important;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .container.msocial>.row>.col-1>a {
@@ -558,4 +561,38 @@ div.section-box div.row div.col-md-6 ul.hobi-lista li span {
     color: black;
     text-align: center;
     padding: 2% 10% 1% 10%;
+}
+
+.sk {
+    color: #e0e6f0;
+    background: #333f50;
+    border: 1.6px solid #4080ff;
+    padding: 10px;
+    flex-grow: 1;
+    display: flex;
+    font-size: 20px;
+    border-radius: 8px;
+    margin: 10px;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.separator {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -52px;
+    width: 50%;
+}
+
+.softkill {
+    color: #333f50;
+    font-size: 23px;
+    text-shadow: 2px 1px #b5b5b4;
+}
+
+
+/* suite a des modifs*/
+
+#formations {
+    display: none;
 }
